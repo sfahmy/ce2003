@@ -1,6 +1,6 @@
 // divides clock by 2048
-module clock_gen(   input    clk_in,
-                    output   clk_out );
+module clkgen( input    clk_in,
+               output   clk_out );
 
 reg [10:0] counter = 11'd0;
 
