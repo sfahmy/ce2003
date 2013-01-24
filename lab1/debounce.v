@@ -25,6 +25,6 @@ begin
 end
 
 // output single cycle pulse when count is 1023
-assign outedge = (counter == 12'd1023);
+assign outedge = (count == 12'd1023);
 
 endmodule
