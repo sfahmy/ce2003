@@ -5,7 +5,7 @@ module debounce(
     );
 
 reg btn_d1, btn_d2;
-reg [11:0] count = 10'd0;
+reg [11:0] count = 12'd0;
 
 // synchronisation chain
 always @(posedge clk)
